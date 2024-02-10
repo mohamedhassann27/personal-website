@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Hassan</title>
+    <link rel="stylesheet" href="advanced.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+
+      <video class="video__loop" autoplay loop muted >
+        <source src="./video-loop.mp4" type="video/mp4">
+      </video>
+
+      <header class="header">
+
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox">
+        
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li><a class="navigation-link navigation__bio" href="#bio">Bio</a></li>
+            <li><a class="navigation-link navigation__skills" href="#skills">Skills</a></li>
+            <li><a class="navigation-link navigation__media" href="#media">Media</a></li>
+            <li><a class="navigation-link navigation__projects" href="#projects">Projects</a></li>
+            <li><a class="navigation-link navigation__clients" href="#clients">My Clients</a></li>
+            <li><a class="navigation-link navigation__contact" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            id="toggle"
+            name="toggle__checkbox"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__date">
+          <h1 class="bio__heading">
+            Hi There, I'm A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+             My name is <span class="bio__name">Mohamed Hassan,</span>
+            a co-founder of
+          <a class="bio__almdrasa" href="https://almdrasa.com/">
+             almdrasa.com,</a>
+            Software Engineer and a content creator who puplish content on
+            <a
+              class="bio__facebook"
+              href="//www.facebook.com/profile.php?id=100053883694929&mibextid=ZbWKwL"
+            >
+              Facebook,</a
+            >
+            <a class="bio__twitter" href="#">Twitter,</a>
+            <a
+              class="bio__linkedin"
+              href="https://www.linkedin.com/in/mohamed-hassan-986837294"
+              >Linkedin</a
+            >
+            and
+            <a class="bio__youtube" href="#">Youtube</a>
+          </p>
+          <a class="bio__links say-hi-link" href="#contact">Say Hi</a>
+          <a class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">⭣</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="personal-pic .png"
+            alt="img of mohamed hassan"
+          />
+        </div>
+      </section>
+
+       <section class="skills section section--with-bg" id="skills">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">1Years</span>
+          </li class="skills__item">
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">1Years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">1Years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">1Years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills__years">1Years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React Testing Library</h2>
+            <span class="skills__years">1Years</span>
+          </li>
+        </ul>
+       </section> 
+
+       <section class="media section" id="media"> 
+        <video class="media__video" poster="./thumbnail.jpg" controls>
+          <source src="./video.mp4" type="video/mp4">
+          your browser does not support the video tag.
+      </video>
+       </section> 
+
+       <section class="projects section" id="projects"> 
+        <h2 class="h2-heading">MY FEATURED <br> PROJECTS</h2>
+        <div class="projects__main">
+          <div>
+         <img class="projects__img" src="./project-1.jpg" alt="Quran Tab Extention"> 
+          </div>
+        <div class="projects__data">
+          <h3 class="h3-heading">Quran Tab Extention</h3>
+          <p class="projects__description">
+            Quran Tab an Islamic new tab page that will keep you inspired by a verse from the Quran every time you open a new tab that helps you achieve your "khatma" and keeps you connected with the words of Allah</p>
+          <a class="projects__link" href="#" target="_blank">Chrome Link</a>
+          <span>-</span>
+          <a class="projects__link" href="#" target="_blank">Edge Link</a>
+        </div>
+
+        <div class="projects__data">
+          <h3 class="h3-heading">Quran Station <br>Extention</h3>
+          <p class="projects__description">
+            Small Extention that gives you acces to over 100 stations to help you listen to the Quran from your favorite reciters easily Quran-station has over 100 stations to help you listen to thr Quran from your favorite resiters in a quick and easy way.
+          </p>
+          <a class="projects__link" href="#" target="_blank" >Chrome Link</a>
+          <span>-</span>
+          <a class="projects__link" href="#" target="_blank">Firefox Link</a>
+          <span>-</span>
+          <a class="projects__link" href="#" target="_blank">Edge Link</a>
+        </div>
+        <div>
+           <img class="projects__img" src="./project-2.jpg" alt="Quran Station Extension">
+        </div>
+        </div>
+      </section>
+
+      <section class="cilents section section--with-bg" id="clients">
+        <h2 class="h2-heading">
+          What My <br>
+          Clients Says
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Mohamed Hassan has the advantageous ability to understand a problem and implement code to a high standard within the deadline. Each project we have worked on, I know I can completely trust Mohamed to own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="clients__opinion">
+              Mohamed Hassan will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with something completely different from what you’re expecting, but the good news is, you’ll always love it.
+            </p>
+            <p class="clients__opinion">
+              I had a chance to work closely with Mohamed as a direct manager from hist first day at DeliveryHero until my last day there (6+months). Mohamed's biggest strengths that I admire are taking initiatives on personal and team level, and driving them.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="contact section" id="contact">
+
+        <div>
+          <p class="contact__description"> free to reach out to me any time. I prefer to talk
+          over email. especially since we may be a few time zones away.
+          </p>
+          <a class="contact__link" href="mailto:mohamedhassann542@gmail.com" target="_blank">mohamedhassann542@gmail.com</a>
+          <div class="contact__socials">
+            <a class="contact__social" href="//www.facebook.com/profile.php?id=100053883694929&mibextid=ZbWKwL" target="_blank">
+              <img src="/brand/facebook.svg" alt="icon of facebook">
+            </a>
+            <a class="contact__social" href="#" target="_blank">
+              <img src="/brand/twitter.svg" alt="icon of twitter">
+            </a>
+            <a class="contact__social" href="#" target="_blank">
+              <img src="/brand/youtube.svg" alt="icon of youtube">
+            </a>
+            <a class="contact__social" href="#" target="_blank">
+              <img src="/brand/github.svg" alt="icon of github">
+            </a>
+            <a class="contact__social" href="https://www.instagram.com/privv_mohamedd_?igsh=MzRlODBiNWFlZA==" target="_blank">
+              <img src="/brand/instagram.svg" alt="icon of instagram">
+            </a>
+            <a class="contact__social" href="https://www.linkedin.com/in/mohamed-hassan-986837294" target="_blank">
+              <img src="/brand/LinkedIn.svg" alt="icon of linkedin">
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__fromcontent">
+          <h2 class="h2-heading">
+            LET'S WORK <br>TOGETHER
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input class="contact__input" type="text" placeholder="Full Name" required>
+              <input class="contact__input" type="tel" placeholder="Phone No." pattern="[0-9]{11}" required>
+            </div>
+            <textarea class="contact__textarea contact__input" name="description" id="description" rows="1" placeholder="Your Message" required></textarea>
+            <input class="contact__input contact__button" type="submit" value="Send Message" required>
+          </form>
+        </div>
+
+      </section>
+      <footer class="footer">© 2024 by Mohamed Hassan</footer>
+    </div>
+  </body>
+</html>
